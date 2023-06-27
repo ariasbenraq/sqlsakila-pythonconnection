@@ -1,19 +1,18 @@
-Configurar el entorno virtual (opcional pero recomendado):
+<h1>Configurar el entorno virtual</h1> 
 
-Crea un entorno virtual para tu proyecto utilizando la herramienta venv incorporada en Python. Ejecuta el siguiente comando en tu terminal:
+<h3>(opcional pero recomendado):</h3>
 
-python -m venv nombre_del_entorno
+<p>Crea un entorno virtual para tu proyecto utilizando la herramienta venv incorporada en Python. Ejecuta el siguiente comando en tu terminal:</p>
 
-Activa el entorno virtual:
-En Windows:nombre_del_entorno\Scripts\activate
-
-En macOS y Linux:source nombre_del_entorno/bin/activate
-
+<ul>python -m venv nombre_del_entorno</ul>
 
 Instalar dependencias:
-pip install SQLAlchemy
 
-pip install MySQLdb
-o
-pip install mysql-connector-python
+<li>pip install SQLAlchemy</li>
+<li>pip install MySQLdb</li>
+<li>pip install mysql-connector-python</li>
+
+
+
+
 
