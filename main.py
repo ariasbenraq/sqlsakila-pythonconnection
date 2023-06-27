@@ -5,7 +5,7 @@ import mysql.connector
 
 
 # Configurar la conexión a la base de datos Sakila
-engine = create_engine('mysql+mysqlconnector://root:rootserver@192.168.8.120:3306/sakila')
+engine = create_engine('mysql+mysqlconnector://root:rootserver@localhost:3306/sakila')
 
 Session = sessionmaker(bind=engine)
 session = Session()
